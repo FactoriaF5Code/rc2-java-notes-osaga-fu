@@ -12,5 +12,17 @@
 
 ## Método Main
 
+Es el punto de entrada a las aplicaciones Java, es decir, nos permite ejecurtar nuestras aplicaciones.
 
+La sintaxis es la siguiente:
 
+```java
+public static void main(String[] args) {
+    //Aquí nuestro código
+}
+```
+`public` es un modificador que indica que es un método público.
+
+`static` indica que el método pertenece a esta clase, no a sus objetos.
+
+`void` indica que el método no devolverá nada.

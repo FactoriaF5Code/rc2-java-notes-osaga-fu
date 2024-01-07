@@ -26,3 +26,60 @@ public static void main(String[] args) {
 `static` indica que el método pertenece a esta clase, no a sus objetos.
 
 `void` indica que el método no devolverá nada.
+
+
+## Variables
+
+Java es un lenguaje fuertemente tipado, es decir, debemos especificar a qué tipo de datos pertenece cada variable.
+
+Es un espacio de memoria donde almacenar datos que pueden variar a lo largo de la ejecución de la aplicación.
+
+### Declaración de una variable
+
+Siempre contiene dos partes: el tipo de dato de la variable y el nombre de la variable o identificador.
+
+
+```java 
+String nombre = "Pepito";
+```
+A partir de la versión 10 se introdujeron también en java las variables dinámicas de manera que no hace falta poner el tipo de dato:
+
+```java
+var numero = 10;
+```
+
+El nombre de las variables debe escribirse siempre en camelCase.
+
+## Tipos de datos
+
+### 1) Númericos
+
+#### Enteros:
+
+```java
+byte entero1 = 1;
+short entero2 = 45;
+int entero3 = 345;
+long entero4 = 123543;
+Integer entero5 = 324;
+```
+
+#### Decimales:
+
+```java
+float decimal1 = 2.5f;
+double decimal2 = 10.45d; //la d es opcional
+```
+
+### 2) Booleanos
+
+```java
+boolean variableBooleana = true;
+```
+
+### 3) Texto
+
+```java
+char caracter = "a";
+String cadenaDeTexto = "Hola a todxs";
+```

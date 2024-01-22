@@ -132,3 +132,59 @@ int suma( int numero1, int numero2 , int numero3) {
 }
 ```
 Si el número de parámetros fuese exactamente igual nos daría un error.
+
+## Estructuras de control
+
+### Condicionales
+
+#### IF
+
+```java
+int edad = 21;
+
+if (edad >= 18) {
+    System.out.println("Eres mayor de edad");
+}
+
+//otro ejemplo
+
+boolean esMayorDeEdad = edad >= 18;
+
+if (esMayorDeEdad) {
+    System.out.println("Eres mayor de edad");
+}
+```
+
+#### IF ELSE
+
+```java
+int edad = 19;
+
+if (edad >= 18){
+    System.out.println("Es mayor de edad");
+    } else {
+    System.out.println("Es menor de edad");
+    }
+```
+
+#### SWITCH
+
+```java
+switch(dia) {
+    case "Lunes":
+        System.out.println("Animo chavales");
+        break;
+    case "Martes":
+        System.out.println("Dale don dale");
+        break;
+    case "Miercoles":
+        System.out.println("Socorro");
+        break;
+    default:
+        System.out.println("Eso ni es un día ni na!");
+        break;
+}
+```
+
+### Bucles
+

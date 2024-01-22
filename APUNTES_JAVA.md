@@ -117,4 +117,18 @@ Normalmente se le pasan a un método (funciones que pertenecen a una clase y se 
 
 ```java
 () -> System.out.println("Hola Mundo!");
+```  
+### Sobrecarga de métodos
+
+Permite duplicar un método o función  siempre y cuando tenga diferente número o tipo de parámetros:
+
+```java
+int suma (int numero1, int numero2){
+    return numero1 + numero2;
+}
+
+int suma( int numero1, int numero2 , int numero3) {
+    return numero1 + numero2 + numero3;
+}
 ```
+Si el número de parámetros fuese exactamente igual nos daría un error.

@@ -111,3 +111,10 @@ String getSaludo( String name){
 }
 ```
 
+### Funciones anónimas
+
+Normalmente se le pasan a un método (funciones que pertenecen a una clase y se usan con los objetos de la misma) que en lugar de parámetros recibe una función anónima.
+
+```java
+() -> System.out.println("Hola Mundo!");
+```

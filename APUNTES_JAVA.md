@@ -83,3 +83,31 @@ boolean variableBooleana = true;
 char caracter = "a";
 String cadenaDeTexto = "Hola a todxs";
 ```
+
+## Funciones
+
+Es un bloque de código que vamos a poder repetir.  
+
+### Declaración de funciones
+
+```java
+tipoDeDatoDevuelve nombreFuncion(tipoDeDatoParametro nombreParametro) {
+ //aqui el cuerpo de la funcion
+}
+```
+
+Cuando nuestra función no devuelve nada debemos poner void en la declaración de la misma:
+
+```java
+void showMenu(){
+    System.out.println("Este es el menú");
+}
+```
+Cuando nos devuelve algo tenemos que poner el tipo de dato que nos devuelve en la declaración de la función
+
+```java
+String getSaludo( String name){
+    return "Hello "+ name;
+}
+```
+

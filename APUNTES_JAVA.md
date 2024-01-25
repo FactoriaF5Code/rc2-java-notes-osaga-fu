@@ -188,3 +188,21 @@ switch(dia) {
 
 ### Bucles
 
+#### FOR
+
+```java
+for (int i = 0; i < 10; i++){
+    System.out.println("Hola")
+}
+//Nos imprimirá Hola 10 veces
+```
+
+```java
+String[] nombres = { "Pepito", "Menganito", "Fulanito"}
+
+for (int i = 0; i < nombre.length; i++){
+    System.out.println(nombres[i]);
+}
+
+//Me imprimirá en consola todos los nombres que haya en el Array
+```

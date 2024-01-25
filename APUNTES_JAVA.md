@@ -206,3 +206,44 @@ for (int i = 0; i < nombre.length; i++){
 
 //Me imprimirá en consola todos los nombres que haya en el Array
 ```
+#### FOR EACH
+
+```java
+String[] nombres = { "Pepito", "Menganito", "Fulanito"};
+
+for(String nombre : nombres){
+    System.out.println(nombre);
+}
+
+//Nos imprime cada uno de los nombres del array
+```
+
+```java
+int[] numeros = {1, 3, 6}
+
+int suma = 0;
+
+for (int numero : numeros){
+    suma += numero;
+}
+//nos va sumando todos los numeros almacenando el resultado en suma
+```
+
+#### WHILE
+
+Es un bucle indeterminado al igual que el do while, no tiene un numero de veces determinado que tiene que durar si no que depende de que se cumpla una condición.
+
+```java
+edad = 0;
+
+while ( edad < 18){
+    Sytem.out.println("no puedes pasar");
+    edad++
+}
+```
+Evalua la condición mientras edad no sea menor que 18 ejecuta el bloque de codigo.  
+__CUIDADO__ podemos caer en bucles infinitos si la condición no llega a cumplirse nunca.
+
+Podemos romper un bucle con la palabra `break` o `continue`.  
+__BREAK__ rompe el bucle y se detiene en la iteración que lo pongamos   
+__CONTINUE__ se salta la iteración donde pongamos el continue
